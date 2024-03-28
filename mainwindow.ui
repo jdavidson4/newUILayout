@@ -39,7 +39,7 @@
      <attribute name="title">
       <string>Tab 1</string>
      </attribute>
-     <widget class="QTableWidget" name="tableWidget">
+     <widget class="QTableWidget" name="RETableWidget">
       <property name="geometry">
        <rect>
         <x>80</x>
@@ -849,7 +849,7 @@ selection-background-color: rgb(52, 101, 164);</string>
         <height>91</height>
        </rect>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="REHorizontalLayout">
        <property name="spacing">
         <number>35</number>
        </property>
@@ -857,7 +857,7 @@ selection-background-color: rgb(52, 101, 164);</string>
         <enum>QLayout::SetNoConstraint</enum>
        </property>
        <item>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QLineEdit" name="RELineEdit">
          <property name="maximumSize">
           <size>
            <width>600</width>
@@ -887,7 +887,7 @@ background-color: rgb(255, 255, 255)</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="REOpenPushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -938,7 +938,7 @@ border: 2px solid black;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="RESavePushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -966,7 +966,7 @@ border: 2px solid black;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="RESaveAsPushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -994,7 +994,7 @@ border: 2px solid black;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="REDeletePushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -1022,7 +1022,7 @@ border: 2px solid black;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_6">
+        <widget class="QPushButton" name="REImportPushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -1050,7 +1050,7 @@ border: 2px solid black;</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="REExportPushButton">
          <property name="maximumSize">
           <size>
            <width>175</width>
@@ -1079,7 +1079,7 @@ border: 2px solid black;</string>
        </item>
       </layout>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="RETitleLabel">
       <property name="geometry">
        <rect>
         <x>910</x>
@@ -1097,7 +1097,7 @@ border: 2px solid black;</string>
        <string>Recipe Editor</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="REDisabledPushButton">
       <property name="enabled">
        <bool>false</bool>
       </property>
@@ -1128,7 +1128,7 @@ border: 2px solid black;</string>
        <string>Step</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="REAddStepPushButton">
       <property name="geometry">
        <rect>
         <x>1180</x>
@@ -1156,7 +1156,7 @@ border: 2px solid black;</string>
        <string>+</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="RERemoveStepPushButton">
       <property name="geometry">
        <rect>
         <x>1250</x>
@@ -1184,7 +1184,7 @@ border: 2px solid black;</string>
        <string>-</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="RELineEditLabel">
       <property name="geometry">
        <rect>
         <x>80</x>
@@ -1205,11 +1205,6 @@ border: 2px solid black;</string>
        <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="tab_2">
-     <attribute name="title">
-      <string>Tab 2</string>
-     </attribute>
     </widget>
    </widget>
   </widget>
