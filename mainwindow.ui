@@ -144,7 +144,7 @@
               <property name="styleSheet">
                <string notr="true">border-radius: 0px;
 
-border: 3px solid black;
+border: 2px solid black;
 background-color: rgb(255, 255, 255)</string>
               </property>
               <property name="text">
@@ -185,13 +185,19 @@ background-color: rgb(255, 255, 255)</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Open</string>
@@ -225,13 +231,19 @@ border: 3px solid black;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Save</string>
@@ -259,13 +271,19 @@ border: 3px solid black;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Save as</string>
@@ -299,13 +317,19 @@ border: 3px solid black;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Delete</string>
@@ -339,13 +363,19 @@ border: 3px solid black;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Import</string>
@@ -379,13 +409,19 @@ border: 3px solid black;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgb(21, 96, 130);
+               <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
               </property>
               <property name="text">
                <string>Export</string>
@@ -1730,7 +1766,7 @@ color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>
@@ -1770,13 +1806,19 @@ border: 3px solid black;</string>
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(21, 96, 130);
+             <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
             </property>
             <property name="text">
              <string>+</string>
@@ -1810,13 +1852,19 @@ border: 3px solid black;</string>
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(21, 96, 130);
+             <string notr="true">QPushButton {
+background-color: rgb(21, 96, 130);
 
 color: rgb(255, 255, 255);
 
 border-radius: 0px;
 
-border: 3px solid black;</string>
+border: 2px solid black;
+}
+
+QPushButton:pressed {
+	background-color: rgb(7, 51, 72);
+};</string>
             </property>
             <property name="text">
              <string>-</string>
